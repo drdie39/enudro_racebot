@@ -1,0 +1,13 @@
+{
+  "sessionId": "demo-session",
+  "sessionName": "Demo IMSA Race",
+  "sessionType": "race",
+  "updatedAt": "2026-03-25T00:00:00.000Z",
+  "cars": [
+    {"id":"car-27","driverName":"Rival Alpha","carNumber":"27","className":"GT3","position":1,"pitStopDurationSec":31,"flags":{"meatball":false}},
+    {"id":"car-18","driverName":"Rival Bravo","carNumber":"18","className":"GT3","position":2,"pitStopDurationSec":34,"flags":{"meatball":false}},
+    {"id":"car-45","driverName":"My Driver","carNumber":"45","className":"GT3","position":3,"pitStopDurationSec":29,"flags":{"meatball":false}},
+    {"id":"car-90","driverName":"Rival Delta","carNumber":"90","className":"LMP2","position":1,"pitStopDurationSec":27,"flags":{"meatball":false}}
+  ],
+  "events": []
+}

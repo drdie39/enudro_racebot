@@ -1,0 +1,15 @@
+services:
+  backend:
+    build: .
+    command: sh -c "cd backend && npm run dev"
+    ports:
+      - "4000:4000"
+    env_file: .env
+  frontend:
+    build: .
+    command: sh -c "cd frontend && npm run dev"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    env_file: .env

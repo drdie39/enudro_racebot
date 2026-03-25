@@ -1,0 +1,19 @@
+{
+  "sessionIdOrUrl": "https://itelemetry.app/session/REPLACE_ME",
+  "identity": {
+    "driverName": "My Driver",
+    "carNumber": "45"
+  },
+  "pollingIntervalMs": 5000,
+  "duplicateCooldownMs": 0,
+  "pitStopThresholdPct": 15,
+  "ambiguousMap": {
+    "My Driver": "car-45"
+  },
+  "demoMode": true,
+  "discord": {
+    "mode": "webhook",
+    "webhookUrl": "https://discord.com/api/webhooks/...",
+    "teamRoleId": "123456"
+  }
+}
